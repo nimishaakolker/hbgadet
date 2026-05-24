@@ -1,6 +1,6 @@
 import React from 'react'
 import TaskForm from './TaskForm'
-import { useTaskContext } from '../context/taskContext'
+import { useTaskContext } from '../context/TaskContext'
 const TaskModal = ({ onClose }) => {
     const {selectedTask} = useTaskContext()
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTaskContext } from '../context/taskContext'
+import { useTaskContext } from '../context/TaskContext'
 
 const TaskCard = ({task, deleteTask, updateTask, toggleTask}) => {
    const {setSelectedTask, setTaskToDelete} = useTaskContext()
